@@ -1,6 +1,6 @@
 
-# This program makes use of the tweepy library to interact with the Twitter API and pull tweets, as well as the TextBlob library
-# Which is used to classify the tweets by measuring their polarity, subjectivity, and intensity
+# This program makes use of the tweepy library to interact with the Twitter API and pull tweets, as well as the TextBlob library.
+# TextBlob is used to classify the tweets by measuring their polarity, subjectivity, and intensity.
 
 # With TextBlob, each word in the lexicon has scores for:
 # 1) polarity: negative vs. positive    (-1.0 => +1.0)
@@ -9,7 +9,8 @@
 
 # TextBlob returns something like this:
 # Sentiment(polarity=0.8, subjectivity=0.75)
-# We can see that polarity is 0.8, which means that the statement is positive and 0.75 subjectivity refers that mostly it is a public opinion and not a factual information.
+# We can see that polarity is 0.8, which means that the statement is positive and 0.75 subjectivity refers that mostly it is a public
+# opinion and not a factual information.
 
 # This program pulls tweets from twitter based on a user defined keyword and sorts them based on their polarity
 # >= 0.5 is considered a positive tweet
